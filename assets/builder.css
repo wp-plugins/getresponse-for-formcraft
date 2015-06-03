@@ -1,0 +1,191 @@
+.hide-true.api-key > input
+{
+	border-color: rgb(24, 164, 24);
+}
+.hide-false.api-key > input
+{
+	border-color: red;
+}
+#form_addon_box #gr-map
+{
+	letter-spacing: -4px;
+	margin-top: 15px;
+}
+#gr-cover
+{
+	padding: 12px;
+	position: relative;
+}
+#gr-cover .api-key.hide-true
+{
+	opacity: .5;
+}
+#gr-cover .help-link
+{
+	text-align: center;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+#gr-cover .more-options
+{
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+	margin-left: -12px;
+	margin-right: -12px;
+	margin-top: 20px;
+	padding: 0px 12px 0 12px;
+}
+#gr-cover .more-options label
+{
+	margin: 12px 0;
+	display: block;
+}
+#gr-cover .more-options label:last-child
+{
+	margin-bottom: 0px;
+}
+#gr-cover .loader
+{
+	display: none;
+	background-color: rgba(255,255,255,0.8);
+}
+#gr-cover.loading .loader
+{
+	display: block;
+}
+#gr-cover .loader .fc-spinner div
+{
+	background-color: #777;
+}
+#form_addon_box #gr-map select,
+#form_addon_box #gr-map input
+{
+	letter-spacing: 0;
+}
+#form_addon_box #gr-map select,
+#form_addon_box #gr-map input
+{
+	width: 30%;
+	border-radius: 0px;
+	border-right: 0px;
+	border-left-color: #ccc;
+	background-image: none;
+	box-shadow: none;
+	font-size: 11px;
+	vertical-align: top;
+}
+#form_addon_box #gr-map .button
+{
+	width: 10%;
+	margin: 0;
+	border-radius: 0 2px 2px 0;
+	border-bottom-width: 1px;
+	height: 29px;
+	display: inline-block;
+	color: #999;
+}
+#form_addon_box #gr-map select,
+#form_addon_box #gr-map input
+{
+	margin-right: 0;
+	margin-left: 0;
+	display: inline-block;
+}
+#gr-cover .button
+{
+	margin: 0;
+	font-size: 11px;
+	height: 30px;
+}
+#gr-cover .button [class^="icon-"]:before
+{
+	position: static;
+}
+#form_addon_box #mapped-gr.nos- > div,
+#form_addon_box #mapped-gr.nos-0 > div
+{
+	display: block;
+}
+#form_addon_box #mapped-gr.nos- > table,
+#form_addon_box #mapped-gr.nos-0 > table
+{
+	display: none;
+}
+#form_addon_box #mapped-gr > div
+{
+	display: none;
+	margin: 20px 10px;
+	line-height: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .4px;
+	color: #aaa;
+	text-align: center;	
+}
+#form_addon_box #mapped-gr table
+{
+	margin: 15px 0;
+	width: 100%;
+	table-layout: fixed;
+}
+#form_addon_box #mapped-gr table td .icon-cancel-circled
+{
+	font-size: 16px;
+	color: #999;
+	margin-left: -3px;
+	cursor: pointer;
+}
+#form_addon_box #mapped-gr table td .icon-cancel-circled:hover
+{
+	color: red;
+}
+#form_addon_box #mapped-gr table td
+{
+	font-size: 11px;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	padding: 5px 0;
+}
+#form_addon_box #mapped-gr table td span
+{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+#form_addon_box #mapped-gr table td:nth-child(1) span:after,
+#form_addon_box #mapped-gr table td:nth-child(2) span:after
+{
+	content: '→';
+	color: #48e;
+	position: absolute;
+	right: -12px;
+	font-size: 13px;
+	top: 50%;
+	margin-top: -9px;
+}
+#form_addon_box #mapped-gr table input
+{
+	max-width: 98%;
+	color: inherit;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 11px;
+	padding: 2px;
+	text-align: center;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border: 0px;
+	border-bottom: 1px solid transparent;
+	border-radius: 0px;
+}
+#form_addon_box #mapped-gr table input:focus,
+#form_addon_box #mapped-gr table input:hover
+{
+	color: #555;
+	border-bottom: 1px solid #48e;
+}
+
+
